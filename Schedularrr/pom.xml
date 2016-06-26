@@ -11,7 +11,7 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<jdk.version>1.8</jdk.version>
-		<spring.version>4.1.1.RELEASE</spring.version>
+		<spring.version>4.2.1.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
 		<junit.version>4.11</junit.version>
 		<logback.version>1.0.13</logback.version>
@@ -69,6 +69,12 @@
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>${jstl.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>javax.servlet-api</artifactId>
+		    <version>3.0.1</version>
+		    <scope>provided</scope>
 		</dependency>
 
 	</dependencies>
