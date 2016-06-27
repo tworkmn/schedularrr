@@ -11,9 +11,11 @@
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- define directory to look for web pages -->
 		<property name="prefix">
 			<value>/WEB-INF/pages/</value>
 		</property>
+		<!-- define file type to look for -->
 		<property name="suffix">
 			<value>.jsp</value>
 		</property>
