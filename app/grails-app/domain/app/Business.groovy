@@ -12,5 +12,10 @@ class Business {
 	String state
 
     static constraints = {
+		name(blank:false)
+		address(blank:false)
+		city(blank:false)
+		zip(blank:false)
+		state(blank:false)
     }
 }

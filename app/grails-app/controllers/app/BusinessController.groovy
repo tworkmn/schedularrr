@@ -7,11 +7,7 @@ class BusinessController {
 	def scaffold = Business
 	
 	def checkUser() {
-		if(!session.user) {
-			// i.e. user is NOT logged in
-			redirect(controller: 'user', action: 'login')
-			return false
-		}
+		// do shit eventually maybe
 	}
 		
 }
