@@ -15,10 +15,11 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: create-drop
-            url: jdbc:mysql://localhost/app
+            dbCreate: update
+            url: jdbc:mysql://localhost/app?useSSL=false
             username: root
-            password: 
+            password: root
+            useSSL: false
 #    test:
 #        dataSource:
 #            dbCreate: update
